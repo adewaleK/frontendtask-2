@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url("images/bg-unsplash.png");
+    /* background-color: #429db4; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.hamburger i{
+    font-size: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: none;  
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header .menu-items{
+    background-color: #fff;
+    width: 90%;
+    margin-top: 4%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #fff;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 81%;
+    top: 0;
+}
+
+.menu-items h3{
+    font-size: 25px;
+    color: #808397;
+    
+}
+
+.menu-items button{
+    font-size: 18px;
+    line-height: 25px;
+    padding: 17px 28px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: #FBD600;
+    font-weight: bold;
+    margin-top: 20px;  
+}
+
+.header .title{
+    margin: 14% auto;
+}
+
+.header .title h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 57px;
+    color: #fff;
+}
+
+.section-1{
+    display: flex;  
+    flex-direction: column; 
+    margin-top: 91%;
+}
+
+.section-1 .img-1{
+    flex: 1;
+}
+
+.img-1 img{
+    width: 100%;
+}
+
+.section-1 box{
+    flex: 1;
+}
+
+.box{
+    margin: 0 auto;
+    
+}
+
+.box h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 35px;
+    color: #24303E;
+    font-family:  'Fraunces 9pt Soft';
+}
+
+.box p{
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+    font-style: 900;
+    color: #808397;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.text-extra{
+    width: 73%;
+    margin: 0 auto;
+}
+
+.text-extra div{
+    height: 12px;
+    background-color: rgb(238, 238, 164);
+    width: 60%;
+    margin: 60px auto;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-extra h3{
+    font-family:  'Fraunces 9pt Soft';
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: -37px;
+    color: #24303E;
+}
+
+.section-2{
+    margin-top: 0;
+}
+
+.section-3 .box-a{
+    background-image: url("images/2Apples-box.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.box-a .content{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 95%;
+    width: 88%;
+}
+
+.content h2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    color: #24554A;
+}
+
+.content p{
+    color: #24554A;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Fraunces 9pt Soft';
+    font-weight: 600;
+    width: 100%;
+}
+
+.section-3 .box-b{
+    background-image: url("images/1Apple-box.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.box-b .content{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 95%;
+    width: 88%;
+}
+
+.box-b .content h2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    color: #052C3B;
+}
+
+.box-b .content p{
+    color: #052C3B;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Fraunces 9pt Soft';
+    font-weight: 600;
+    width: 100%;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0 15% 0;
+}
+
+.testimonials h2{
+    text-align: center;
+    color: #A7AAAD;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.card p{
+    color: Barlow;
+    color: #5B636D;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card .base{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.base h3{
+    color: #24303E;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.base p{
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.galleries{
+    display: flex;
+    flex-direction: column;
+}
+
+.galleries .gall-1{
+    display: flex;
+    width: 100%;
+}
+
+.gall-1 div{
+    flex: 1;
+    object-fit: contain;
+    width: 50%;
+    margin-top: -13%;
+}
+
+.gall-1 div img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+}
+
+.footer{
+    background-image: url("images/fbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -14%;
+    padding: 20% 0;
+    padding-bottom: 30%;
+}
+
+.f-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-img img{
+    margin-right: 25px;
+}
+
+.f-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.f-menu h3{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 30px;
+    color: #458D7E;
+}
+
+.icons{
+    
+}
+
+.icons img{
+    width: 30px;
+    color: seagreen;
+}
