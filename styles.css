@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'Red Hat Display', sans-serif;;
 }
 
 .header{
@@ -15,6 +17,10 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
+}
+
+.desktop-nav{
+    display: none;
 }
 
 .logo img{
@@ -110,8 +116,7 @@ body{
 }
 
 .box{
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .box h3{
@@ -195,6 +200,7 @@ body{
     font-weight: 600;
     width: 100%;
 }
+
 
 .section-3 .box-b{
     background-image: url("images/1Apple-box.png");
@@ -302,9 +308,11 @@ body{
     background-image: url("images/fbg.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -14%;
     padding: 20% 0;
     padding-bottom: 30%;
+    width: 100%;
 }
 
 .f-img{
@@ -338,4 +346,124 @@ body{
 .icons img{
     width: 30px;
     color: seagreen;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .hamburger{
+        display: none;
+    }
+
+    .navbar .logo{
+        margin-top: 33px;
+    }
+
+    .header{
+        height: 800px;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+
+    .desktop-nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .desktop-nav button{
+        padding: 15px 30px !important;
+        background-color: rgb(191, 151, 228) !important;
+        border-radius: 50px !important;
+        color: #fff;
+
+    }
+
+    .desktop-nav div{
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .desktop-nav h3{
+        font-size: 25px;
+        color: #fff;
+        margin-right: 45px;   
+    }
+    
+    .desktop-nav button{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 17px 28px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background: #FBD600;
+        font-weight: bold;
+        margin-top: 20px;  
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .header .title{
+        margin-bottom: 35% !important;
+    }
+
+    .section-1{
+        display: flex;  
+        flex-direction: row-reverse;
+        margin-top: 0;
+        width: 100%;
+        margin-top: 50px !important;
+    }
+
+    .section-1 .img-1{
+        width: 50%;
+ 
+    }
+
+    .section-1 .box{
+        width: 50%;
+    }
+
+    .section-2 .box{
+    }
+
+    .section-3{
+        /* margin-top: -24% !important; */
+        margin-top: 0 !important;
+        display: flex;
+    }
+
+    .section-3 .box-a{
+        width: 50%;
+    }
+
+    .section-3 .box-b{
+        width: 50%;
+    }
+
+    .box-a .content, 
+    .box-b .content{
+        padding-top: 53%;
+    }
+
+    .cards{
+        flex-direction: row;
+    }
+
+    .galleries{
+        flex-direction: row;
+    }
+
+    .footer{
+        width: 100vw !important;
+    }
+ 
+    .f-img{
+        width: 40%;
+        margin: 0 auto;
+    } 
 }
